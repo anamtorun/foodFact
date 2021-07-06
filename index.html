@@ -13,6 +13,14 @@
 </head>
 
 <body>
+    <div>
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+        <ul id="myMenu">
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </div>
     <section class="first-part">
         <div id="first-part" class="half-width">
             <h1><span class="span-color">Be Happy</span> Be Healthy</h1>
@@ -69,6 +77,29 @@
         </div>
         </div>
     </section>
+
+
+    <form action="action_page.php">
+        <div class="container">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Stay tuned</p>
+        </div>
+
+        <div class="container" style="background-color:white">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+            <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+            </label>
+        </div>
+
+        <div class="container">
+            <input type="submit" value="Subscribe">
+        </div>
+    </form>
+
+
+
 
     <section class="food-network">
         <footer>
