@@ -1,0 +1,157 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+color: rgb(133, 131, 131);
+   font-size: 50px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+
+
+
+h3{
+    font-weight: 200;
+    color: rgb(75, 75, 75);
+}
+p{
+    font-weight: 400;
+    color: rgb(75, 75, 75);
+    margin-top: 5px;
+}
+
+.span-color{
+    color: #ffbb00;
+}
+
+.first-part {
+    display: flex;
+    margin: 40px 100px 40px 150px;
+}
+.second-part {
+ display: flex;
+ background-image: url(img/Frame\ 57.jpg);
+ background-repeat: no-repeat;
+ background-size: 2000px 850px;
+ background-position: 5% 5%;
+ margin: 40px 0px 40px 0px;
+}
+
+.recipe-name{
+ font-weight: 700;
+ font-size: 30px;
+ margin: 5px 5px 5px 90px;
+}
+
+.foods {
+ margin-top: 100px;
+}
+.food-paragraph {
+    margin: 5px 30px 5px 30px;
+}
+#first-part {
+    margin-top: 150px;
+}
+
+#second-part {
+    margin-top: 250px;
+}
+.rights{
+    color: aliceblue;
+}
+
+#first-paragraph {
+    margin-bottom: 40px;
+    margin-right: 150px;
+}
+
+#second-paragraph {
+    margin-bottom: 40px;
+    margin-right: 200px
+}
+
+#food-category {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+#sauerkraut {
+    margin-bottom: 20px;
+}
+
+#some-part {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#chola-batora {
+    margin: 5px 150px 5px 150px;
+}
+
+
+
+.first-image{
+    margin-top: 30px;
+    height: 700px;
+}
+.second-image {
+    margin-top: 156px;
+    margin-left: 0;
+    height: 693px;
+}
+
+.foods {
+    display: flex;
+    height: 5%;
+    width: 35%;
+    
+}
+
+.recipe-image {
+    margin: 10px 10px 5px 10px;
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.recipe-dash {
+    box-shadow: 10px 10px 40px #aaaaaa;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+
+
+.order-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(#ff3a54, #ff49c9);
+    padding: 10px 40px 10px 40px;
+    margin: 100px 5px 5px 0px;
+    border-radius: 40px;
+}
+
+.footer-part {
+    margin-top: 20px;
+}
+#footer-p {
+    font-size: 16px;
+    padding-bottom: 200px;
+    }
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(133, 131, 131);
+    background-color: #000b4d;
+}
